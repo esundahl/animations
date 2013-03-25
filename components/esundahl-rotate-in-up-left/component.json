@@ -1,0 +1,19 @@
+{
+  "name": "rotate-in-up-left",
+  "repo": "esundahl/rotate-in-up-left",
+  "description": "rotate-in animation",
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "animation",
+    "rotate-in-up-left"
+  ],
+  "dependencies": {
+    "esundahl/animated": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "rotate-in-up-left.css"
+  ]
+}

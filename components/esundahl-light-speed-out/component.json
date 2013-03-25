@@ -1,0 +1,19 @@
+{
+  "name": "light-speed-out",
+  "repo": "esundahl/light-speed-out",
+  "description": "light-speed-out animation",
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "animation",
+    "light-speed-out"
+  ],
+  "dependencies": {
+    "esundahl/animated": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "light-speed-out.css"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "fade-in-up-big",
+  "repo": "esundahl/fade-in-up-big",
+  "description": "fade-in-up-big animation",
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "animation",
+    "fade-in-up-big"
+  ],
+  "dependencies": {
+    "esundahl/animated": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "fade-in-up-big.css"
+  ]
+}

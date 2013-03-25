@@ -1,0 +1,19 @@
+{
+  "name": "flip",
+  "repo": "esundahl/flip",
+  "description": "flip animation",
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "animation",
+    "flip"
+  ],
+  "dependencies": {
+    "esundahl/animated": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "flip.css"
+  ]
+}

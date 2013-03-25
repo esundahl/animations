@@ -1,0 +1,19 @@
+{
+  "name": "bounce-out-right",
+  "repo": "esundahl/bounce-out-right",
+  "description": "bounce-out-right animation",
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "animation",
+    "bounce-out-right"
+  ],
+  "dependencies": {
+    "esundahl/animated": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "bounce-out-right.css"
+  ]
+}

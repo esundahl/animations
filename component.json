@@ -1,0 +1,14 @@
+{
+  "name": "animations",
+  "description": "animations",
+  "dependencies": {
+    "esundahl/animations": "*"
+  },
+  "development": {},
+  "scripts": [
+    "index.js"
+  ],
+  "styles": [
+    "animations.css"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "bounce-in-left",
+  "repo": "esundahl/bounce-in-left",
+  "description": "bounce-in-left animation",
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "animation",
+    "bounce-in-left"
+  ],
+  "dependencies": {
+    "esundahl/animated": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "bounce-in-left.css"
+  ]
+}

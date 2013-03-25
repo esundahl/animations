@@ -1,0 +1,20 @@
+{
+  "name": "fading-exits",
+  "repo": "esundahl/fading-exits",
+  "description": "fading exit animations",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "esundahl/fade-out": "*",
+    "esundahl/fade-out-up": "*",
+    "esundahl/fade-out-down": "*",
+    "esundahl/fade-out-left": "*",
+    "esundahl/fade-out-right": "*",
+    "esundahl/fade-out-up-big": "*",
+    "esundahl/fade-out-down-big": "*",
+    "esundahl/fade-out-left-big": "*",
+    "esundahl/fade-out-right-big": "*"
+  },
+  "development": {},
+  "license": "MIT"
+}

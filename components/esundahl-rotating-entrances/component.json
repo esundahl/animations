@@ -1,0 +1,16 @@
+{
+  "name": "rotating-entrances",
+  "repo": "esundahl/rotating-entrances",
+  "description": "rotating entrance animations",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "esundahl/rotate-in": "*",
+    "esundahl/rotate-in-down-left": "*",
+    "esundahl/rotate-in-down-right": "*",
+    "esundahl/rotate-in-up-left": "*",
+    "esundahl/rotate-in-up-right": "*"
+  },
+  "development": {},
+  "license": "MIT"
+}

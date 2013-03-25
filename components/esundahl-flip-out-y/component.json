@@ -1,0 +1,19 @@
+{
+  "name": "flip-out-y",
+  "repo": "esundahl/flip-out-y",
+  "description": "flip-out-y animation",
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "animation",
+    "flip-out-y"
+  ],
+  "dependencies": {
+    "esundahl/animated": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "flip-out-y.css"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "animations",
+  "repo": "esundahl/animations",
+  "description": "large colllection of css3 animations",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "esundahl/attention-seekers": "*",
+    "esundahl/bouncing-entrances": "*",
+    "esundahl/bouncing-exits": "*",
+    "esundahl/fading-entrances": "*",
+    "esundahl/fading-exits": "*",
+    "esundahl/flippers": "*",
+    "esundahl/light-speed": "*",
+    "esundahl/rotating-entrances": "*",
+    "esundahl/rotating-exits": "*",
+    "esundahl/specials": "*"
+  },
+  "development": {},
+  "license": "MIT"
+}

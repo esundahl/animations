@@ -1,0 +1,19 @@
+{
+  "name": "rotate-in-down-right",
+  "repo": "esundahl/rotate-in-down-right",
+  "description": "rotate-in-down-right animation",
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "animation",
+    "rotate-in-down-right"
+  ],
+  "dependencies": {
+    "esundahl/animated": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "rotate-in-down-right.css"
+  ]
+}

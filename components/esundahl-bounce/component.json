@@ -1,0 +1,19 @@
+{
+  "name": "bounce",
+  "repo": "esundahl/bounce",
+  "description": "bounce animation",
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "animation",
+    "bounce"
+  ],
+  "dependencies": {
+    "esundahl/animated": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "bounce.css"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "flippers",
+  "repo": "esundahl/flippers",
+  "description": "flipper animations",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "esundahl/flip": "*",
+    "esundahl/flip-in-x": "*",
+    "esundahl/flip-out-x": "*",
+    "esundahl/flip-in-y": "*",
+    "esundahl/flip-out-y": "*"
+  },
+  "development": {},
+  "license": "MIT"
+}

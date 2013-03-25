@@ -1,0 +1,16 @@
+{
+  "name": "rotating-exits",
+  "repo": "esundahl/rotating-exits",
+  "description": "rotating exit animations",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "esundahl/rotate-out": "*",
+    "esundahl/rotate-out-down-left": "*",
+    "esundahl/rotate-out-down-right": "*",
+    "esundahl/rotate-out-up-left": "*",
+    "esundahl/rotate-out-up-right": "*"
+  },
+  "development": {},
+  "license": "MIT"
+}

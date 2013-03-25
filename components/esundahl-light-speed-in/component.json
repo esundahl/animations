@@ -1,0 +1,19 @@
+{
+  "name": "light-speed-in",
+  "repo": "esundahl/light-speed-in",
+  "description": "light-speed-in animation",
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "animation",
+    "light-speed-in"
+  ],
+  "dependencies": {
+    "esundahl/animated": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "light-speed-in.css"
+  ]
+}

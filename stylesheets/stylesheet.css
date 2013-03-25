@@ -429,3 +429,36 @@ Small Device Styles
   }
 
 }
+
+#header_wrap {
+  position: fixed;
+  z-index: 100;
+}
+
+#main_content {
+  margin-top: 300px;
+}
+
+#main_content li {
+  height: 35px;
+}
+
+#title-wrapper {
+  background: red;
+}
+
+a.demo {
+  padding: 5px 10px;
+  margin: 10px 0px;
+  border-radius: 10px;
+  background: #007edf;
+  color: #fff;
+}
+
+a.demo:hover {
+  color: #ccc !important;
+}
+
+pre {
+  margin: 20px;
+}

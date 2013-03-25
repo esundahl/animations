@@ -1,0 +1,13 @@
+{
+  "name": "bounce-out",
+  "repo": "esundahl/bounce-out",
+  "description": "bounce out animation",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "bounce-out.css"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "animated",
+  "repo": "esundahl/animated",
+  "description": "animated",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "animated.css"
+  ]
+}

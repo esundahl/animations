@@ -1,0 +1,19 @@
+{
+  "name": "rotate-out-up-right",
+  "repo": "esundahl/rotate-out-up-right",
+  "description": "rotate-out-up-right animation",
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "animation",
+    "rotate-out-up-right"
+  ],
+  "dependencies": {
+    "esundahl/animated": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "rotate-out-up-right.css"
+  ]
+}

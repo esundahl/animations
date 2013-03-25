@@ -1,0 +1,13 @@
+{
+  "name": "lightspeed",
+  "repo": "esundahl/lightspeed",
+  "description": "lightspeed animations",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "esundahl/light-speed-in": "*",
+    "esundahl/light-speed-out": "*"
+  },
+  "development": {},
+  "license": "MIT"
+}

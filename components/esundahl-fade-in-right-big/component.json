@@ -1,0 +1,19 @@
+{
+  "name": "fade-in-right-big",
+  "repo": "esundahl/fade-in-right-big",
+  "description": "fade-in-right-big animation",
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "animation",
+    "fade-in-right-big"
+  ],
+  "dependencies": {
+    "esundahl/animated": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "fade-in-right-big.css"
+  ]
+}

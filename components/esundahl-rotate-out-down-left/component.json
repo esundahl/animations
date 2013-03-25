@@ -1,0 +1,19 @@
+{
+  "name": "rotate-out-down-left",
+  "repo": "esundahl/rotate-out-down-left",
+  "description": "rotate-out-down-left animation",
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "animation",
+    "rotate-out-down-left"
+  ],
+  "dependencies": {
+    "esundahl/animated": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "rotate-out-down-left.css"
+  ]
+}

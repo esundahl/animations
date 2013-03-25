@@ -1,0 +1,19 @@
+{
+  "name": "fade-in",
+  "repo": "esundahl/fade-in",
+  "description": "fade-in animation",
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "animation",
+    "fade-in"
+  ],
+  "dependencies": {
+    "esundahl/animated": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "fade-in.css"
+  ]
+}

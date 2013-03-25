@@ -1,0 +1,20 @@
+{
+  "name": "fading-entrances",
+  "repo": "esundahl/fading-entrances",
+  "description": "fading entrance animations",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "esundahl/fade-in": "*",
+    "esundahl/fade-in-up": "*",
+    "esundahl/fade-in-down": "*",
+    "esundahl/fade-in-left": "*",
+    "esundahl/fade-in-right": "*",
+    "esundahl/fade-in-up-big": "*",
+    "esundahl/fade-in-down-big": "*",
+    "esundahl/fade-in-left-big": "*",
+    "esundahl/fade-in-right-big": "*"
+  },
+  "development": {},
+  "license": "MIT"
+}

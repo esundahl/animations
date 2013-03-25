@@ -1,0 +1,19 @@
+{
+  "name": "bounce-in-right",
+  "repo": "esundahl/bounce-in-right",
+  "description": "bounce-in-right animation",
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "animation",
+    "bounce-in-right"
+  ],
+  "dependencies": {
+    "esundahl/animated": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "bounce-in-right.css"
+  ]
+}

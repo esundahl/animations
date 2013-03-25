@@ -1,0 +1,19 @@
+{
+  "name": "fade-out-down-big",
+  "repo": "esundahl/fade-out-down-big",
+  "description": "fade-out-down-big animation",
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "animation",
+    "fade-out-down-big"
+  ],
+  "dependencies": {
+    "esundahl/animated": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "fade-out-down-big.css"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "attention-seekers",
+  "repo": "esundahl/attention-seekers",
+  "description": "attention seekers animations",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "esundahl/flash": "*",
+    "esundahl/bounce": "*",
+    "esundahl/shake": "*",
+    "esundahl/tada": "*",
+    "esundahl/swing": "*",
+    "esundahl/wobble": "*",
+    "esundahl/wiggle": "*",
+    "esundahl/pulse": "*"
+  },
+  "development": {},
+  "license": "MIT"
+}

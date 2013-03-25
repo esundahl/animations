@@ -1,0 +1,19 @@
+{
+  "name": "flip-out-x",
+  "repo": "esundahl/flip-out-x",
+  "description": "flipInX animation",
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "animation",
+    "flip-out-x"
+  ],
+  "dependencies": {
+    "esundahl/animated": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "flip-out-x.css"
+  ]
+}

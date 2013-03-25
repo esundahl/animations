@@ -1,0 +1,19 @@
+{
+  "name": "pulse",
+  "repo": "esundahl/pulse",
+  "description": "pulse animation",
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "animation",
+    "pulse"
+  ],
+  "dependencies": {
+    "esundahl/animated": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "pulse.css"
+  ]
+}

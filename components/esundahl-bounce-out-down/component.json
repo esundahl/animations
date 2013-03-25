@@ -1,0 +1,19 @@
+{
+  "name": "bounce-out-down",
+  "repo": "esundahl/bounce-out-down",
+  "description": "bounce-out-down animation",
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "animation",
+    "bounce-out-down"
+  ],
+  "dependencies": {
+    "esundahl/animated": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "bounce-out-down.css"
+  ]
+}

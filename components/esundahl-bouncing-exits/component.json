@@ -1,0 +1,16 @@
+{
+  "name": "bouncing-exits",
+  "repo": "esundahl/bouncing-exits",
+  "description": "bouncing exit animations",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "esundahl/bounce-out": "*",
+    "esundahl/bounce-out-down": "*",
+    "esundahl/bounce-out-up": "*",
+    "esundahl/bounce-out-left": "*",
+    "esundahl/bounce-out-right": "*"
+  },
+  "development": {},
+  "license": "MIT"
+}

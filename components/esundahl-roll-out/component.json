@@ -1,0 +1,19 @@
+{
+  "name": "roll-out",
+  "repo": "esundahl/roll-out",
+  "description": "roll-out animation",
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "animation",
+    "roll-out"
+  ],
+  "dependencies": {
+    "esundahl/animated": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "roll-out.css"
+  ]
+}

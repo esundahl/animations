@@ -1,0 +1,19 @@
+{
+  "name": "tada",
+  "repo": "esundahl/tada",
+  "description": "tada animation",
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "animation",
+    "tada"
+  ],
+  "dependencies": {
+    "esundahl/animated": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "tada.css"
+  ]
+}

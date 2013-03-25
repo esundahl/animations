@@ -5,464 +5,539 @@
     <meta charset='utf-8' />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <meta name="description" content="Animations : A component collection of CSS3 animations taken from the animate.css library" />
-
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Animations</title>
+		<link rel="stylesheet" type="text/css" media="screen" href="build/build.css">
+    <title>Animation</title>
   </head>
-
   <body>
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/esundahl/animations">View on GitHub</a>
-
-          <h1 id="project_title">Animations</h1>
-          <h2 id="project_tagline">A component collection of CSS3 animations taken from the animate.css library</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/esundahl/animations/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/esundahl/animations/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
+      <header class="inner">
+	      <a id="forkme_banner" href="https://github.com/esundahl/animations" class='animated swing'>View on GitHub</a>
+	      <h1 id="project_title" class='example animated bounce-in-down'>Animations</h1>
+	      <h2 id="project_tagline" class='example animated bounce-in-down'>A collection of css3 animation components taken from the <a href="http://daneden.me/animate/">animate.css</a> library</h2>
+      </header>		
     </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h2>Collections</h2>
+<!-- MAIN CONTENT -->
+<div id="main_content_wrap" class="outer">
+<section id="main_content" class="inner">
 
-<p><a href="https://github.com/esundahl/attention-seekers">esundahl/attention-seekers</a> - Attention seeking animations
-<a href="https://github.com/esundahl/bouncing-entrances">esundahl/bouncing-entrances</a> - Bouncing entrance animations
-<a href="https://github.com/esundahl/bouncing-exits">esundahl/bouncing-exits</a> - Bouncing exit animations
-<a href="https://github.com/esundahl/fading-entrances">esundahl/fading-entrances</a> - Fading entrance animations
-<a href="https://github.com/esundahl/fading-exits">esundahl/fading-exits</a> - Fading exit animations
-<a href="https://github.com/esundahl/flippers">esundahl/flippers</a> - Flipper Animations
-<a href="https://github.com/esundahl/light-speed">esundahl/light-speed</a> - Light speed animations
-<a href="https://github.com/esundahl/rotating-entrances">esundahl/rotating-entrances</a> - Rotating entrance animations
-<a href="https://github.com/esundahl/rotating-exits">esundahl/rotating-exits</a> - Rotating exit animations
-<a href="https://github.com/esundahl/specials">esundahl/specials</a> - Special animations</p>
+<h2>Installation</h2>
+<p>To install all of the animations</p>
+<pre><code>$ component install esundahl/animations</code></pre>
 
-<h2>Individual Animations</h2>
 
-<div></div>
+<h2>Usage</h2>
+<p>
+	All animations require a base class of .animated followed by the class of the animation that you want to invoke for example in order to invoke the flash animation on an element you would do the following
+</p>
+<pre><code><div class='animated fade'>Content to be animated</div></code></pre>
 
-<h3><a href="#bounce">Bounce</a></h3>
 
-<pre><code>$ component install esundahl/bounce
-</code></pre>
+<h2>Animation Collections</h2>
 
-<div></div>
 
-<h3><a href="#flash">Flash</a></h3>
+<a name='attention-seekers'></a>
+<h3><a href="#attention-seekers">Attention Seekers</a></h3>
+<pre><code>$ component install esundahl/attention-seekers</code></pre>
+<ul>
+	<li><a href="#flash" class='demo'>.flash</a></li>
+	<li><a href="#bounce" class='demo'>.bounce</a></li>
+	<li><a href="#shake" class='demo'>.shake</a></li>
+	<li><a href="#tada" class='demo'>.tada</a></li>
+	<li><a href="#swing" class='demo'>.swing</a></li>
+	<li><a href="#wobble" class='demo'>.wobble</a></li>
+	<li><a href="#wiggle" class='demo'>.wiggle</a></li>
+	<li><a href="#pulse" class='demo'>.pulse</a></li>
+</ul>
 
+
+
+<a name='flippers'></a>
+<h3><a href="#flippers">Flippers</a></h3>
+<pre><code>$ component install esundahl/flippers</code></pre>
+<ul>
+	<li><a href="#flip" class='demo'>.flip</a></li>
+	<li><a href="#flip-in-x" class='demo'>.flip-in-x</a></li>
+	<li><a href="#flip-out-x" class='demo'>.flip-out-x</a></li>
+	<li><a href="#flip-in-y" class='demo'>.flip-in-y</a></li>
+	<li><a href="#flip-out-y" class='demo'>.flip-out-y</a></li>
+</ul>
+
+
+
+<a name='fading-entrances'></a>
+<h3><a href="#fading-entrances">Fading Entrances</a></h3>
+<pre><code>$ component install esundahl/fading-entrances</code></pre>
+<ul>
+	<li><a href="#fade-in" class='demo'>.fade-out</a></li>
+	<li><a href="#fade-in-up" class='demo'>.fade-out-up</a></li>
+	<li><a href="#fade-in-down" class='demo'>.fade-out-down</a></li>
+	<li><a href="#fade-in-left" class='demo'>.fade-out-left</a></li>
+	<li><a href="#fade-in-right" class='demo'>.fade-out-right</a></li>
+	<li><a href="#fade-in-up-big" class='demo'>.fade-out-down</a></li>
+	<li><a href="#fade-in-down-big" class='demo'>.fade-out-down-big</a></li>
+	<li><a href="#fade-in-down" class='demo'>.fade-out-down</a></li>
+	<li><a href="#fade-in-left-big" class='demo'>.fade-out-left-big</a></li>
+	<li><a href="#fade-in-right-big" class='demo'>.fade-out-right-big</a></li>
+</ul>
+
+
+<a name='fading-exits'></a>
+<h3><a href="#fading-exits">Fading Exits</a></h3>
+<pre><code>$ component install esundahl/fading-exits</code></pre>
+<ul>
+	<li><a href="#fade-out" class='demo'>.fade-out</a></li>
+	<li><a href="#fade-out-up" class='demo'>.fade-out-up</a></li>
+	<li><a href="#fade-out-down" class='demo'>.fade-out-down</a></li>
+	<li><a href="#fade-out-left" class='demo'>.fade-out-left</a></li>
+	<li><a href="#fade-out-right" class='demo'>.fade-out-right</a></li>
+	<li><a href="#fade-out-up-big" class='demo'>.fade-out-down</a></li>
+	<li><a href="#fade-out-down-big" class='demo'>.fade-out-down-big</a></li>
+	<li><a href="#fade-out-down" class='demo'>.fade-out-down</a></li>
+	<li><a href="#fade-out-left-big" class='demo'>.fade-out-left-big</a></li>
+	<li><a href="#fade-out-right-big" class='demo'>.fade-out-right-big</a></li>
+</ul>
+
+
+
+<a name='bouncing-entrances'></a>
+<h3><a href="#bouncing-entrances">Bouncing Entrances</a></h3>
+<pre><code>$ component install esundahl/bouncing-entrances</code></pre>
+
+<ul>
+	<li><a href="#bounce-in" class='demo'>.bounce-in</a></li>
+	<li><a href="#bounce-in-down" class='demo'>.bounce-in-down</a></li>
+	<li><a href="#bounce-in-up" class='demo'>.bounce-in-up</a></li>
+	<li><a href="#bounce-in-left" class='demo'>.bounce-in-left</a></li>
+	<li><a href="#bounce-in-right" class='demo'>.bounce-in-right</a></li>
+</ul>
+
+
+<a name='bouncing-entrances'></a>
+<h3><a href="#bouncing-entrances">Bouncing Exits</a></h3>
+<pre><code>$ component install esundahl/bouncing-exits</code></pre>
+<ul>
+	<li><a href="#bounce-out" class='demo'>.bounce-out</a></li>
+	<li><a href="#bounce-out-down" class='demo'>.bounce-out-down</a></li>
+	<li><a href="#bounce-out-up" class='demo'>.bounce-out-up</a></li>
+	<li><a href="#bounce-out-left" class='demo'>.bounce-out-left</a></li>
+	<li><a href="#bounce-out-right" class='demo'>.bounce-out-right</a></li>
+</ul>
+
+
+
+<a name='rotating-entrances'></a>
+<h3><a href="#rotating-entrances">Rotating Entrances</a></h3>
+<pre><code>$ component install esundahl/rotate-entrances</code></pre>
+<ul>
+	<li><a href="#rotate-in" class='demo'>.rotate-in</a></li>
+	<li><a href="#rotate-in-down-left" class='demo'>.rotate-in-down-left</a></li>
+	<li><a href="#rotate-in-down-right" class='demo'>.rotate-in-down-right</a></li>
+	<li><a href="#rotate-in-up-left" class='demo'>.rotate-in-up-left</a></li>
+	<li><a href="#rotate-in-up-right" class='demo'>.rotate-in-up-right</a></li>
+</ul>
+
+
+
+<a name='rotating-exits'></a>
+<h3><a href="#rotating-exits">Rotating Exits</a></h3>
+<pre><code>$ component install esundahl/rotate-entrances</code></pre>
+<ul>
+	<li><a href="#rotate-out" class='demo'>.rotate-out</a></li>
+	<li><a href="#rotate-out-down-left" class='demo'>.rotate-out-down-left</a></li>
+	<li><a href="#rotate-out-down-right" class='demo'>.rotate-out-down-right</a></li>
+	<li><a href="#rotate-out-up-left" class='demo'>.rotate-out-up-left</a></li>
+	<li><a href="#rotate-out-up-right" class='demo'>.rotate-out-up-right</a></li>
+</ul>
+
+
+
+<a name='light-speed'></a>
+<pre><code>$ component install esundahl/light-speed</code></pre>
+<h3><a href="#light-speed">Light Speed</a></h3>
+<ul>
+	<li><a href="#light-speed-in" class='demo'>.light-speed-in</a></li>
+	<li><a href="#light-speed-out" class='demo'>.light-speed-out</a></li>
+</ul>
+
+
+<a name='specials'></a>
+<h3><a href="#specials">Specials</a></h3>
+<pre><code>$ component install esundahl/light-speed</code></pre>
+<ul>
+	<li><a href="#hinge" class='demo'>.hinge</a></li>
+	<li><a href="#roll-in" class='demo'>.roll-in</a></li>
+	<li><a href="#roll-out" class='demo'>.roll-out</a></li>
+</ul>
+
+
+
+<h2>Individual Animation Components</h2>
+
+<a name='bounce'></a>
+<h3><a href="#bounce" class='demo'>.bounce</a></h3>
+<pre><code>$ component install esundahl/bounce</code></pre>
+
+
+<a name='flash'></a>
+<h3><a href="#flash" class='demo'>.flash</a></h3>
 <pre><code>$ component install esundahl/flash
 </code></pre>
 
-<div></div>
 
-<h3><a href="#pulse">Pulse</a></h3>
-
+<a name='pulse'></a>
+<h3><a href="#pulse" class='demo'>.pulse</a></h3>
 <pre><code>$ component install esundahl/pulse
 </code></pre>
 
-<div></div>
 
-<h3><a href="#shake">Shake</a></h3>
-
+<a name='shake'></a>
+<h3><a href="#shake" class='demo'>.shake</a></h3>
 <pre><code>$ component install esundahl/shake
 </code></pre>
 
-<div></div>
 
-<h3><a href="#swing">Swing</a></h3>
-
+<a name='swing'></a>
+<h3><a href="#swing" class='demo'>.swing</a></h3>
 <pre><code>$ component install esundahl/swing
 </code></pre>
 
-<div></div>
 
-<h3><a href="#tada">Tada</a></h3>
-
+<a name='tada'></a>
+<h3><a href="#tada" class='demo'>.tada</a></h3>
 <pre><code>$ component install esundahl/tada
 </code></pre>
 
-<div></div>
 
-<h3><a href="#wiggle">Wiggle</a></h3>
-
+<a name='wiggle'></a>
+<h3><a href="#wiggle" class='demo'>.wiggle</a></h3>
 <pre><code>$ component install esundahl/wiggle
 </code></pre>
 
-<div></div>
 
-<h3><a href="#wobble">wobble</a></h3>
-
+<a name='wobble'></a>
+<h3><a href="#wobble" class='demo'>.wobble</a></h3>
 <pre><code>$ component install esundahl/wobble
 </code></pre>
 
-<div></div>
 
-<h3><a href="#bounce-in">bounce-in</a></h3>
-
+<a name='bounce-in'></a>
+<h3><a href="#bounce-in" class='demo'>.bounce-in</a></h3>
 <pre><code>$ component install esundahl/bounce-in
 </code></pre>
 
-<div></div>
 
-<h3><a href="#bounce-in-down">bounce-in-down</a></h3>
-
+<a name='bounce-in-down'></a>
+<h3><a href="#bounce-in-down" class='demo'>.bounce-in-down</a></h3>
 <pre><code>$ component install esundahl/bounce-in-down
 </code></pre>
 
-<div></div>
 
-<h3><a href="#bounce-in-left">bounce-in-left</a></h3>
-
+<a name='bounce-in-left'></a>
+<h3><a href="#bounce-in-left" class='demo'>.bounce-in-left</a></h3>
 <pre><code>$ component install esundahl/bounce-in-left
 </code></pre>
 
-<div></div>
 
-<h3><a href="#bounce-in-right">bounce-in-right</a></h3>
-
+<a name='bounce-in-right'></a>
+<h3><a href="#bounce-in-right" class='demo'>.bounce-in-right</a></h3>
 <pre><code>$ component install esundahl/bounce-in-right
 </code></pre>
 
-<div></div>
 
-<h3><a href="#bounce-in-up">bounce-in-up</a></h3>
-
+<a name='bounce-in-up'></a>
+<h3><a href="#bounce-in-up" class='demo'>.bounce-in-up</a></h3>
 <pre><code>$ component install esundahl/bounce-in-up
 </code></pre>
 
-<div></div>
 
-<h3><a href="#bounce-out">bounce-out</a></h3>
-
+<a name='bounce-out'></a>
+<h3><a href="#bounce-out" class='demo'>.bounce-out</a></h3>
 <pre><code>$ component install esundahl/bounce-out
 </code></pre>
 
-<div></div>
 
-<h3><a href="#bounce-out-down">bounce-out-down</a></h3>
-
+<a name='bounce-out-down'></a>
+<h3><a href="#bounce-out-down" class='demo'>.bounce-out-down</a></h3>
 <pre><code>$ component install esundahl/bounce-out-down
 </code></pre>
 
-<div></div>
 
-<h3><a href="#bounce-out-left">bounce-out-left</a></h3>
-
+<a name='bounce-out-left'></a>
+<h3><a href="#bounce-out-left" class='demo'>.bounce-out-left</a></h3>
 <pre><code>$ component install esundahl/bounce-out-left
 </code></pre>
 
-<div></div>
 
-<h3><a href="#bounce-out-right">bounce-out-right</a></h3>
-
+<a name='bounce-out-right'></a>
+<h3><a href="#bounce-out-right" class='demo'>.bounce-out-right</a></h3>
 <pre><code>$ component install esundahl/bounce-out-right
 </code></pre>
 
-<div></div>
 
-<h3><a href="#bounce-out-up">bounce-out-up</a></h3>
-
+<a name='bounce-out-up'></a>
+<h3><a href="#bounce-out-up" class='demo'>.bounce-out-up</a></h3>
 <pre><code>$ component install esundahl/bounce-out-up
 </code></pre>
 
-<div></div>
 
-<h3><a href="#fade-in">fade-in</a></h3>
-
+<a name='fade-in'></a>
+<h3><a href="#fade-in" class='demo'>.fade-in</a></h3>
 <pre><code>$ component install esundahl/fade-in
 </code></pre>
 
-<div></div>
 
-<h3><a href="#fade-in-down">fade-in-down</a></h3>
-
+<a name='fade-in-down'></a>
+<h3><a href="#fade-in-down" class='demo'>.fade-in-down</a></h3>
 <pre><code>$ component install esundahl/fade-in-down
 </code></pre>
 
-<div></div>
 
-<h3><a href="#fade-in-down-big">fade-in-down-big</a></h3>
-
+<a name='fade-in-down-big'></a>
+<h3><a href="#fade-in-down-big" class='demo'>.fade-in-down-big</a></h3>
 <pre><code>$ component install esundahl/fade-in-down-big
 </code></pre>
 
-<div></div>
 
-<h3><a href="#fade-in-left">fade-in-left</a></h3>
-
+<a name='fade-in-left'></a>
+<h3><a href="#fade-in-left" class='demo'>.fade-in-left</a></h3>
 <pre><code>$ component install esundahl/fade-in-left
 </code></pre>
 
-<div></div>
 
-<h3><a href="#fade-in-left-big">fade-in-left-big</a></h3>
-
+<a name='fade-in-left-big'></a>
+<h3><a href="#fade-in-left-big" class='demo'>.fade-in-left-big</a></h3>
 <pre><code>$ component install esundahl/fade-in-left-big
 </code></pre>
 
-<div></div>
 
-<h3><a href="#fade-in-right">fade-in-right</a></h3>
-
+<a name='fade-in-right'></a>
+<h3><a href="#fade-in-right" class='demo'>.fade-in-right</a></h3>
 <pre><code>$ component install esundahl/fade-in-right
 </code></pre>
 
-<div></div>
 
-<h3><a href="#fade-in-right-big">fade-in-right-big</a></h3>
-
+<a name='fade-in-right-big'></a>
+<h3><a href="#fade-in-right-big" class='demo'>.fade-in-right-big</a></h3>
 <pre><code>$ component install esundahl/fade-in-right-big
 </code></pre>
 
-<div></div>
 
-<h3><a href="#fade-in-up">fade-in-up</a></h3>
-
+<a name='fade-in-up'></a>
+<h3><a href="#fade-in-up" class='demo'>.fade-in-up</a></h3>
 <pre><code>$ component install esundahl/fade-in-up
 </code></pre>
 
-<div></div>
-
-<h3><a href="#fade-in-up-big">fade-in-up-big</a></h3>
-
+<a name='fade-in-up-big'></a>
+<h3><a href="#fade-in-up-big" class='demo'>.fade-in-up-big</a></h3>
 <pre><code>$ component install esundahl/fade-in-up-big
 </code></pre>
 
-<div></div>
 
-<h3><a href="#fade-out">fade-out</a></h3>
-
+<a name='fade-out'></a>
+<h3><a href="#fade-out" class='demo'>.fade-out</a></h3>
 <pre><code>$ component install esundahl/fade-out
 </code></pre>
 
-<div></div>
 
-<h3><a href="#fade-out-down">fade-out-down</a></h3>
-
+<a name='fade-out-down'></a>
+<h3><a href="#fade-out-down" class='demo'>.fade-out-down</a></h3>
 <pre><code>$ component install esundahl/fade-out-down
 </code></pre>
 
-<div></div>
 
-<h3><a href="#fade-out-down-big">fade-out-down-big</a></h3>
-
+<a name='fade-out-down-big'></a>
+<h3><a href="#fade-out-down-big" class='demo'>.fade-out-down-big</a></h3>
 <pre><code>$ component install esundahl/fade-out-down-big
 </code></pre>
 
-<div></div>
 
-<h3><a href="#fade-out-left">fade-out-left</a></h3>
-
+<a name='fade-out-left'></a>
+<h3><a href="#fade-out-left" class='demo'>.fade-out-left</a></h3>
 <pre><code>$ component install esundahl/fade-out-left
 </code></pre>
 
-<div></div>
 
-<h3><a href="#fade-out-left-big">fade-out-left-big</a></h3>
-
+<a name='fade-out-left-big'></a>
+<h3><a href="#fade-out-left-big" class='demo'>.fade-out-left-big</a></h3>
 <pre><code>$ component install esundahl/fade-out-left-big
 </code></pre>
 
-<div></div>
 
-<h3><a href="#fade-out-right">fade-out-right</a></h3>
-
+<a name=''></a>
+<h3><a href="#fade-out-right" class='demo'>.fade-out-right</a></h3>
 <pre><code>$ component install esundahl/fade-out-right
 </code></pre>
 
-<div></div>
 
-<h3><a href="#fade-out-right-big">fade-out-right-big</a></h3>
-
+<a name='fade-out-right-big'></a>
+<h3><a href="#fade-out-right-big" class='demo'>.fade-out-right-big</a></h3>
 <pre><code>$ component install esundahl/fade-out-right-big
 </code></pre>
 
-<div></div>
 
-<h3><a href="#fade-out-up">fade-out-up</a></h3>
-
+<a name='fade-out-up'></a>
+<h3><a href="#fade-out-up" class='demo'>.fade-out-up</a></h3>
 <pre><code>$ component install esundahl/fade-out-up
 </code></pre>
 
-<div></div>
 
-<h3><a href="#fade-out-up-big">fade-out-up-big</a></h3>
-
+<a name='fade-out-up-big'></a>
+<h3><a href="#fade-out-up-big" class='demo'>.fade-out-up-big</a></h3>
 <pre><code>$ component install esundahl/fade-out-up-big
 </code></pre>
 
-<div></div>
 
-<h3><a href="#flip">flip</a></h3>
-
+<a name='flip'></a>
+<h3><a href="#flip" class='demo'>.flip</a></h3>
 <pre><code>$ component install esundahl/flip
 </code></pre>
 
-<div></div>
 
-<h3><a href="#flip-in-x">flip-in-x</a></h3>
-
+<a name='flip-in-x'></a>
+<h3><a href="#flip-in-x" class='demo'>flip-in-x</a></h3>
 <pre><code>$ component install esundahl/flip-in-x
 </code></pre>
 
-<div></div>
 
-<h3><a href="#flip-in-y">flip-in-y</a></h3>
-
+<a name='flip-in-y'></a>
+<h3><a href="#flip-in-y" class='demo'>.flip-in-y</a></h3>
 <pre><code>$ component install esundahl/flip-in-y
 </code></pre>
 
-<div></div>
 
-<h3><a href="#flip-out-x">flip-out-x</a></h3>
-
+<a name='flip-out-x'></a>
+<h3><a href="#flip-out-x" class='demo'>.flip-out-x</a></h3>
 <pre><code>$ component install esundahl/flip-out-x
 </code></pre>
 
-<div></div>
 
-<h3><a href="#flip-out-y">flip-out-y</a></h3>
-
+<a name='flip-out-y'></a>
+<h3><a href="#flip-out-y" class='demo'>.flip-out-y</a></h3>
 <pre><code>$ component install esundahl/flip-out-y
 </code></pre>
 
-<div></div>
 
-<h3><a href="#light-speed-in">light-speed-in</a></h3>
-
+<a name='light-speed-in'></a>
+<h3><a href="#light-speed-in" class='demo'>.light-speed-in</a></h3>
 <pre><code>$ component install esundahl/light-speed-in
 </code></pre>
 
-<div></div>
 
-<h3><a href="#light-speed-out">light-speed-out</a></h3>
-
+<a name='light-speed-out'></a>
+<h3><a href="#light-speed-out" class='demo'>.light-speed-out</a></h3>
 <pre><code>$ component install esundahl/light-speed-out
 </code></pre>
 
-<div></div>
 
-<h3><a href="#rotate-in">rotate-in</a></h3>
-
+<a name='rotate-in'></a>
+<h3><a href="#rotate-in" class='demo'>.rotate-in</a></h3>
 <pre><code>$ component install esundahl/rotate-in
 </code></pre>
 
-<div></div>
 
-<h3><a href="#rotate-in-down-left">rotate-in-down-left</a></h3>
-
+<a name='rotate-in-down-left'></a>
+<h3><a href="#rotate-in-down-left" class='demo'>.rotate-in-down-left</a></h3>
 <pre><code>$ component install esundahl/rotate-in-down-left
 </code></pre>
 
-<div></div>
 
-<h3><a href="#rotate-in-down-right">rotate-in-down-right</a></h3>
-
+<a name='rotate-in-down-right'></a>
+<h3><a href="#rotate-in-down-right" class='demo'>.rotate-in-down-right</a></h3>
 <pre><code>$ component install esundahl/rotate-in-down-right
 </code></pre>
 
-<div></div>
 
-<h3><a href="#rotate-in-up-left">rotate-in-up-left</a></h3>
-
+<a name='rotate-in-up-left'></a>
+<h3><a href="#rotate-in-up-left" class='demo'>.rotate-in-up-left</a></h3>
 <pre><code>$ component install esundahl/rotate-in-up-left
 </code></pre>
 
-<div></div>
 
-<h3><a href="#rotate-in-up-right">rotate-in-up-right</a></h3>
-
+<a name='rotate-in-up-right'></a>
+<h3><a href="#rotate-in-up-right" class='demo'>.rotate-in-up-right</a></h3>
 <pre><code>$ component install esundahl/rotate-in-up-right
 </code></pre>
 
-<div></div>
 
-<h3><a href="#rotate-out">rotate-out</a></h3>
-
+<a name='rotate-out'></a>
+<h3><a href="#rotate-out" class='demo'>.rotate-out</a></h3>
 <pre><code>$ component install esundahl/rotate-out
 </code></pre>
 
-<div></div>
 
-<h3><a href="#rotate-out-down-left">rotate-out-down-left</a></h3>
-
+<a name='rotate-out-down-left'></a>
+<h3><a href="#rotate-out-down-left" class='demo'>.rotate-out-down-left</a></h3>
 <pre><code>$ component install esundahl/rotate-out-down-left
 </code></pre>
 
-<div></div>
 
-<h3><a href="#rotate-out-down-right">rotate-out-down-right</a></h3>
-
+<a name='rotate-out-down-right'></a>
+<h3><a href="#rotate-out-down-right" class='demo'>.rotate-out-down-right</a></h3>
 <pre><code>$ component install esundahl/rotate-out-down-right
 </code></pre>
 
-<div></div>
 
-<h3><a href="#rotate-out-up-left">rotate-out-up-left</a></h3>
-
+<a name='rotate-out-up-left'></a>
+<h3><a href="#rotate-out-up-left" class='demo'>.rotate-out-up-left</a></h3>
 <pre><code>$ component install esundahl/rotate-out-up-left
 </code></pre>
 
-<div></div>
 
-<h3><a href="#rotate-out-up-right">rotate-out-up-right</a></h3>
-
+<a name='rotate-out-up-right'></a>
+<h3><a href="#rotate-out-up-right" class='demo'>.rotate-out-up-right</a></h3>
 <pre><code>$ component install esundahl/rotate-out-up-right
 </code></pre>
 
-<div></div>
 
-<h3><a href="#hinge">hinge</a></h3>
-
+<a name='hinge'></a>
+<h3><a href="#hinge" class='demo'>.hinge</a></h3>
 <pre><code>$ component install esundahl/hinge
 </code></pre>
 
-<div></div>
 
-<h3><a href="#roll-in">roll-in</a></h3>
-
+<a name='roll-in'></a>
+<h3><a href="#roll-in" class='demo'>.roll-in</a></h3>
 <pre><code>$ component install esundahl/roll-in
 </code></pre>
 
-<div></div>
 
-<h3><a href="#roll-out">roll-out</a></h3>
-
+<a name='roll-out'></a>
+<h3><a href="#roll-out" class='demo'>.roll-out</a></h3>
 <pre><code>$ component install esundahl/roll-out
 </code></pre>
+
 
 <h2>License</h2>
 
 <p>MIT</p>
-      </section>
+</section>
     </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Animations maintained by <a href="https://github.com/esundahl">esundahl</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
+<!-- FOOTER  -->
+<div id="footer_wrap" class="outer">
+  <footer class="inner">
+    <p class="copyright">Animations maintained by <a href="https://github.com/esundahl">esundahl</a></p>
+    <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+  </footer>
+</div>
 
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-7340019-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
+	<script src='build/build.js' type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" charset="utf-8">require('animations')</script>
+<script type="text/javascript">
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+  try {
+    var pageTracker = _gat._getTracker("UA-7340019-1");
+  pageTracker._trackPageview();
+  } catch(err) {}
+</script>
 
 
-  </body>
+</body>
 </html>

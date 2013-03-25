@@ -1,0 +1,19 @@
+{
+  "name": "bounce-out-left",
+  "repo": "esundahl/bounce-out-left",
+  "description": "bounce-out-left animation",
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "animation",
+    "bounce-out-left"
+  ],
+  "dependencies": {
+    "esundahl/animated": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "bounce-out-left.css"
+  ]
+}

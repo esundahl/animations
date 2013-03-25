@@ -1,0 +1,19 @@
+{
+  "name": "bounce-in-down",
+  "repo": "esundahl/bounce-in-down",
+  "description": "bounce-in-down animation",
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "animation",
+    "bounce-in-down"
+  ],
+  "dependencies": {
+    "esundahl/animated": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "bounce-in-down.css"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "specials",
+  "repo": "esundahl/specials",
+  "description": "special animations",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "esundahl/hinge": "*",
+    "esundahl/roll-in": "*",
+    "esundahl/roll-out": "*"
+  },
+  "development": {},
+  "license": "MIT"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "wiggle",
+  "repo": "esundahl/wiggle",
+  "description": "wiggle animation",
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "animation",
+    "wiggle"
+  ],
+  "dependencies": {
+    "esundahl/animated": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "wiggle.css"
+  ]
+}

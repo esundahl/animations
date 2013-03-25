@@ -1,0 +1,26 @@
+@-webkit-keyframes fade-out {
+	0% {opacity: 1;}
+	100% {opacity: 0;}
+}
+
+@-moz-keyframes fade-out {
+	0% {opacity: 1;}
+	100% {opacity: 0;}
+}
+
+@-o-keyframes fade-out {
+	0% {opacity: 1;}
+	100% {opacity: 0;}
+}
+
+@keyframes fade-out {
+	0% {opacity: 1;}
+	100% {opacity: 0;}
+}
+
+.fade-out {
+	-webkit-animation-name: fade-out;
+	-moz-animation-name: fade-out;
+	-o-animation-name: fade-out;
+	animation-name: fade-out;
+}

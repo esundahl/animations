@@ -1,0 +1,19 @@
+{
+  "name": "bounce-in-up",
+  "repo": "esundahl/bounce-in-up",
+  "description": "bounce-in-up animation",
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "animation",
+    "bounce-in-up"
+  ],
+  "dependencies": {
+    "esundahl/animated": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "bounce-in-up.css"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "roll-in",
+  "repo": "esundahl/roll-in",
+  "description": "roll-in animation",
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "animation",
+    "roll-in"
+  ],
+  "dependencies": {
+    "esundahl/animated": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "roll-in.css"
+  ]
+}

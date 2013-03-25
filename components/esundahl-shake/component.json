@@ -1,0 +1,19 @@
+{
+  "name": "shake",
+  "repo": "esundahl/shake",
+  "description": "shake animation",
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "animation",
+    "shake"
+  ],
+  "dependencies": {
+    "esundahl/animated": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "shake.css"
+  ]
+}

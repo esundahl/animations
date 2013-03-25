@@ -1,0 +1,19 @@
+{
+  "name": "fade-out-left",
+  "repo": "esundahl/fade-out-left",
+  "description": "fade-out-left animation",
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "animation",
+    "fade-out-left"
+  ],
+  "dependencies": {
+    "esundahl/animated": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "fade-out-left.css"
+  ]
+}

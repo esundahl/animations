@@ -1,0 +1,19 @@
+{
+  "name": "hinge",
+  "repo": "esundahl/hinge",
+  "description": "hinge animation",
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "animation",
+    "hinge"
+  ],
+  "dependencies": {
+    "esundahl/animated": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "hinge.css"
+  ]
+}

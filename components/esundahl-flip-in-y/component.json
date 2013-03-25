@@ -1,0 +1,19 @@
+{
+  "name": "flip-in-y",
+  "repo": "esundahl/flip-in-y",
+  "description": "flipInX animation",
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "animation",
+    "flip-in-y"
+  ],
+  "dependencies": {
+    "esundahl/animated": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "flip-in-y.css"
+  ]
+}

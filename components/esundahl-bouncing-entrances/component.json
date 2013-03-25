@@ -1,0 +1,16 @@
+{
+  "name": "bouncing-entrances",
+  "repo": "esundahl/bouncing-entrances",
+  "description": "bouncing entrance animations",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "esundahl/bounce-in": "*",
+    "esundahl/bounce-in-down": "*",
+    "esundahl/bounce-in-up": "*",
+    "esundahl/bounce-in-left": "*",
+    "esundahl/bounce-in-right": "*"
+  },
+  "development": {},
+  "license": "MIT"
+}

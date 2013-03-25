@@ -1,0 +1,19 @@
+{
+  "name": "rotate-in",
+  "repo": "esundahl/rotate-in",
+  "description": "rotate-in animation",
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "animation",
+    "rotate-in"
+  ],
+  "dependencies": {
+    "esundahl/animated": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "rotate-in.css"
+  ]
+}

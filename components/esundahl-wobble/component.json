@@ -1,0 +1,19 @@
+{
+  "name": "wobble",
+  "repo": "esundahl/wobble",
+  "description": "wobble animation",
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "animation",
+    "wobble"
+  ],
+  "dependencies": {
+    "esundahl/animated": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "wobble.css"
+  ]
+}

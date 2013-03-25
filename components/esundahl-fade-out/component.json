@@ -1,0 +1,19 @@
+{
+  "name": "fade-out",
+  "repo": "esundahl/fade-out",
+  "description": "fade-out animation",
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "animation",
+    "fade-out"
+  ],
+  "dependencies": {
+    "esundahl/animated": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "fade-out.css"
+  ]
+}
