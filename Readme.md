@@ -1,18 +1,24 @@
 # Animations
 
-  A component collection of CSS3 animations taken from the animate.css library
+  A collection of css3 animation components taken from the [animate.css](http://daneden.me/animate/) library
 
 ## Installation
 
 
-## All Animations
+### [esundahl/animations](https://github.com/esundahl/animations) - Combination of all animations
 
-### [esundahl/animations](https://github.com/esundahl/animations) - Attention seeking animations
+	$ component install esundahl/animations
 
-		$ component install esundahl/animations
-		
+or install any of the collections or animations from the list below.
+
+## Usage
+
+All animations require a base class of .animated followed by the class of the animation that you want to invoke. For example in order to invoke the flash animation on an element you would do the following
+
+	<div class='animated fade'>Content to be animated</div>
 
 ## Collections
+
 
 ### [esundahl/attentions-seekers](https://github.com/esundahl/attention-seekers) - Attention seeking animations
 
