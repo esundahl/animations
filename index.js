@@ -1,5 +1,4 @@
 
-
 /**
  * Animation Demo Functionality
  */
