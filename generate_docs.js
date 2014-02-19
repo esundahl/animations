@@ -22,7 +22,7 @@ collections.forEach(function(coll){
   console.log()
   for (var dep in config.dependencies){
     var animation = dep.split('/')[1]
-    console.log('* [' + animation + '](https://github.com/esundahl/' + dep + ')')
+    console.log('* [' + animation + '](https://github.com/' + dep + ')')
   }
   console.log()
 })
